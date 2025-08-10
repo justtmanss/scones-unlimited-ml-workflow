@@ -149,10 +149,8 @@ cython_debug/
 # Built Visual Studio Code Extensions
 *.vsix
 
-# Data files
+# Data files - allow JSON and JSONL for step functions
 *.csv
-*.json
-*.jsonl
 *.pkl
 *.pickle
 *.h5
@@ -227,8 +225,8 @@ checkpoints/
 *.pth
 *.pt
 
-# Captured data
-captured_data/
+# Captured data - allow all files
+# captured_data/  # Commented out to allow tracking
 
 # Training outputs
 outputs/
